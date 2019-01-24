@@ -4,3 +4,12 @@
   height: auto;
   width: auto;
 }
+
+.output {
+  font-size: 120%;
+  height: 70px;
+}
+
+.output p {
+  padding: 0;
+}
