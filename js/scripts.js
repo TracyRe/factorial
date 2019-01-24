@@ -1,9 +1,8 @@
 $(document).ready(function(){
-
   $("#factorial").submit(function(event){
     event.preventDefault();
-    var userInput = parseInt($("input#userInput").val());
 
+    var userInput = parseInt($("input#userInput").val());
     var output = [];
     for (var i = userInput; i > 1 ; i = --userInput ) {
       output.push(i);
@@ -18,9 +17,9 @@ $(document).ready(function(){
 
     $(".result").text(result);
 
+  });
 
-    });
-    $("button#redo").click(function(){
+  $("button#redo").click(function(){
     $("input#userInput").val("");
     $(".result").text("");
   });
