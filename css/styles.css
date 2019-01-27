@@ -1,15 +1,50 @@
+/* ******** NON-MOBILE STYLES (*********) */
+@media only screen and (min-width: 600px) {
+  html {
+    font-size: 16px;
+  }
+
+
+}
+
+/* ******** MOBILE FIRST DEFAULT STYLES (*********) */
+
+html {
+font-size: 24px;
+}
+
+body {
+  background-color: #9575CD;
+}
+
 .form-control {
   padding: 10px 20px 10px 20px;
   /* border: 1px solid #f0f; */
   height: auto;
   width: auto;
+  box-shadow: 4px 4px 10px rgba(62, 57, 71, 0.7);
 }
 
 .output {
   font-size: 120%;
   height: 70px;
+  box-shadow: 4px 4px 10px rgba(62, 57, 71, 0.7);
 }
 
 .output p {
   padding: 0;
+}
+
+input, select, button {
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+
+input {
+  width: auto;
+}
+
+button {
+  text-transform: uppercase;
+  letter-spacing: .1em;
 }
