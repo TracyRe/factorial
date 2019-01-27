@@ -14,10 +14,14 @@
       <h1>Factorial!</h1>
 
       <form id="factorial" class="form-control" action="index.html" method="post">
-        <label for="factorial">Your Number</label>
-        <input id="userInput" type="number" name="factorial" value="" required>
-        <button class="btn-primary"type="submit" name="button">Factorial!</button>
-        <button id="redo" class="btn-info" type="button" name="button">Reset</button>
+        <div class="input-row">
+          <label for="factorial">Your Number</label>
+          <input id="userInput" type="number" name="factorial" value="" required>
+        </div>
+        <div class="button-row">
+          <button class="btn-primary"type="submit" name="button">Factorial!</button>
+          <button id="redo" class="btn-info" type="button" name="button">Reset</button>
+        </div>
       </form>
 
       <div class="output well">
